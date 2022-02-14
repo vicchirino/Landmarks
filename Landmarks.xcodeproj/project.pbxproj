@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		835D0A2E27BAB9FA00542350 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D0A2D27BAB9FA00542350 /* FavoriteButton.swift */; };
-		835D0A3227BABF5800542350 /* Swift.gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 835D0A3127BABF5800542350 /* Swift.gitignore */; };
+		835D0A3427BAC39500542350 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D0A3327BAC39500542350 /* HexagonParameters.swift */; };
+		835D0A3627BAC5E800542350 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D0A3527BAC5E800542350 /* BadgeBackground.swift */; };
+		835D0A3827BACD1500542350 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D0A3727BACD1500542350 /* Badge.swift */; };
+		835D0A3A27BACE3E00542350 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D0A3927BACE3E00542350 /* RotatedBadgeSymbol.swift */; };
+		835D0A3C27BACEC600542350 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D0A3B27BACEC600542350 /* BadgeSymbol.swift */; };
+		835D0A3F27BAD20700542350 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 835D0A3E27BAD20700542350 /* .gitignore */; };
 		83A3AA9B27B54D6D00C1A5F0 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A3AA9A27B54D6D00C1A5F0 /* LandmarksApp.swift */; };
 		83A3AA9D27B54D6D00C1A5F0 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A3AA9C27B54D6D00C1A5F0 /* LandmarkDetail.swift */; };
 		83A3AA9F27B54D7100C1A5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A3AA9E27B54D7100C1A5F0 /* Assets.xcassets */; };
@@ -45,7 +50,12 @@
 
 /* Begin PBXFileReference section */
 		835D0A2D27BAB9FA00542350 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		835D0A3127BABF5800542350 /* Swift.gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = Swift.gitignore; sourceTree = "<group>"; };
+		835D0A3327BAC39500542350 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		835D0A3527BAC5E800542350 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		835D0A3727BACD1500542350 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		835D0A3927BACE3E00542350 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		835D0A3B27BACEC600542350 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		835D0A3E27BAD20700542350 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		83A3AA9727B54D6D00C1A5F0 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A3AA9A27B54D6D00C1A5F0 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		83A3AA9C27B54D6D00C1A5F0 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
@@ -111,10 +121,22 @@
 			path = Landmarks;
 			sourceTree = "<group>";
 		};
+		835D0A3D27BAD00A00542350 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				835D0A3B27BACEC600542350 /* BadgeSymbol.swift */,
+				835D0A3327BAC39500542350 /* HexagonParameters.swift */,
+				835D0A3527BAC5E800542350 /* BadgeBackground.swift */,
+				835D0A3927BACE3E00542350 /* RotatedBadgeSymbol.swift */,
+				835D0A3727BACD1500542350 /* Badge.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		83A3AA8E27B54D6D00C1A5F0 = {
 			isa = PBXGroup;
 			children = (
-				835D0A3127BABF5800542350 /* Swift.gitignore */,
+				835D0A3E27BAD20700542350 /* .gitignore */,
 				83A3AA9927B54D6D00C1A5F0 /* Landmarks */,
 				83A3AAAA27B54D7100C1A5F0 /* LandmarksTests */,
 				83A3AAB427B54D7100C1A5F0 /* LandmarksUITests */,
@@ -193,6 +215,7 @@
 				835D0A3027BABB2D00542350 /* Landmarks */,
 				835D0A2F27BABA9F00542350 /* Helpers */,
 				83CC04D627B6FAFE00A09B56 /* ContentView.swift */,
+				835D0A3D27BAD00A00542350 /* Badges */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835D0A3F27BAD20700542350 /* .gitignore in Resources */,
 				83A3AAA227B54D7100C1A5F0 /* Preview Assets.xcassets in Resources */,
 				83A3AA9F27B54D7100C1A5F0 /* Assets.xcassets in Resources */,
 				83CC04C927B6EC8C00A09B56 /* landmarkData.json in Resources */,
@@ -328,16 +352,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835D0A3427BAC39500542350 /* HexagonParameters.swift in Sources */,
 				83A3AA9D27B54D6D00C1A5F0 /* LandmarkDetail.swift in Sources */,
 				83A3AACA27B584C000C1A5F0 /* MapView.swift in Sources */,
 				83A3AA9B27B54D6D00C1A5F0 /* LandmarksApp.swift in Sources */,
 				835D0A2E27BAB9FA00542350 /* FavoriteButton.swift in Sources */,
+				835D0A3C27BACEC600542350 /* BadgeSymbol.swift in Sources */,
 				83CC04D527B6F8B800A09B56 /* LandmarkList.swift in Sources */,
 				83A3AAC827B57C0100C1A5F0 /* CircleImage.swift in Sources */,
+				835D0A3827BACD1500542350 /* Badge.swift in Sources */,
+				835D0A3A27BACE3E00542350 /* RotatedBadgeSymbol.swift in Sources */,
 				83CC04D727B6FAFE00A09B56 /* ContentView.swift in Sources */,
+				835D0A3627BAC5E800542350 /* BadgeBackground.swift in Sources */,
 				83CC04CB27B6ED5900A09B56 /* Landmark.swift in Sources */,
 				83CC04D127B6F49D00A09B56 /* LandmarkRow.swift in Sources */,
-				835D0A3227BABF5800542350 /* Swift.gitignore in Sources */,
 				83CC04CE27B6F1B400A09B56 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
