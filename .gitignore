@@ -8,7 +8,7 @@
 *.perspectivev3
 *.xcuserstate
 project.xcworkspace/
-xcuserdata/
+*.xcuserdata/
 
 ## User settings
 xcuserdata/
